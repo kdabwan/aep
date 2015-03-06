@@ -21,8 +21,8 @@ public class ChanceTest {
 
     @Test
     public void twoChancesWithTheSameProbabilityShouldBeEqual() {
-        Chance coinToss = new Chance(0.5);
-        assertEquals(new Chance(0.5), coinToss);
+        Chance coinToss = new Chance(0.6);
+        assertEquals(new Chance(0.6), coinToss);
         assertFalse(coinToss.equals(null));
         assertFalse(coinToss.equals(new Object()));
         assertFalse(coinToss.equals(new Chance(0.75)));
