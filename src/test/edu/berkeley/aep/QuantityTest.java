@@ -12,6 +12,7 @@ public class QuantityTest {
         Quantity oneYard = Quantity.createQuantity(1, Units.YARDS);
         Quantity threeFeet = Quantity.createQuantity(3, Units.FEET);
         assertEquals(oneYard, threeFeet);
+        assertEquals(oneYard, threeFeet);
     }
 
     @Test
